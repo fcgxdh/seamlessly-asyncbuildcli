@@ -1,3 +1,6 @@
-function averageArray(arr) {
-  return arr.reduce((acc, curr) => acc + curr, 0) / arr.length;
+function add(x, y) {
+  return x + y;
 }
+
+const result = add(5, 3);
+console.log(result); // 8
